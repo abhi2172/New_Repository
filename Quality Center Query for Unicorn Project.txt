@@ -1,0 +1,30 @@
+ SELECT 
+ BG_BUG_ID AS "Defect ID",
+ BG_SUMMARY AS "Summary",
+ BG_DETECTED_BY AS "Detected By",
+ BG_DETECTION_DATE AS "Detected On Date",
+ BG_PROJECT AS "Project",
+ BG_USER_05 AS "Dev Team",
+ BG_USER_08 AS "Testing Phase",
+ BG_PRIORITY AS "Priority",
+ BG_RESPONSIBLE AS "Assigned To",
+ BG_STATUS AS "Status",
+ BG_USER_02 AS "Category",
+ BG_USER_04 AS "Code Delivery",
+ BG_USER_01 AS "Resolution Category",
+ BG_USER_09 AS "PPM Request",
+ BG_USER_07 AS "Kickback Reason",
+ BG_USER_10 AS "SDM12 Ticket",
+ BG_SUBJECT AS "Subject",
+ BG_REPRODUCIBLE AS "Reproducible",
+  'default_unicorn_phase_2_and_fw' AS "Project Schema",
+ 'Unicorn_Phase_2_and_FWO' AS "Project Name"
+ from default_unicorn_phase_2_and_fw.BUG
+ order by BG_BUG_ID asc
+ 
+ 
+ 
+            
+            
+            
+            

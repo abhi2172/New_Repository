@@ -21,6 +21,7 @@
  'Unicorn_Phase_2_and_FWO' AS "Project Name"
  from default_unicorn_phase_2_and_fw.BUG
  order by BG_BUG_ID asc
+ group by BG_DETECTION_DATE
  
  
  
